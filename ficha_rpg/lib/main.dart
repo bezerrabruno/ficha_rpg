@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'package:ficha_rpg/pages/character_selector.dart';
+
 void main() {
   runApp(AppRPG());
 }
@@ -10,17 +12,6 @@ class AppRPG extends StatelessWidget {
     return MaterialApp(
       title: 'Ficha RPG',
       home: HomePage(),
-    );
-  }
-}
-
-class HomePage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Text('Iniciando'),
-      ),
     );
   }
 }
