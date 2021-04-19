@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:ficha_rpg/pages/character_selector.dart';
+import 'package:ficha_rpg/pages/selector.dart';
 
 void main() {
   runApp(AppRPG());
@@ -11,7 +11,7 @@ class AppRPG extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Ficha RPG',
-      home: HomePage(),
+      home: SelectorPage(),
     );
   }
 }
