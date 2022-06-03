@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'package:ficha_rpg/pages/selector.dart';
+import 'app/update/pages/selector.dart';
 
-void main() {
-  runApp(AppRPG());
-}
+void main() => runApp(AppRPG());
 
 class AppRPG extends StatelessWidget {
   @override

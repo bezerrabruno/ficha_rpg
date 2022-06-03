@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:ficha_rpg/pages/character.dart';
+import '../pages/character.dart';
 
 class CardJogador extends StatelessWidget {
   @override

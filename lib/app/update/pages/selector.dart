@@ -1,5 +1,6 @@
-import 'package:ficha_rpg/components/card_jogador.dart';
 import 'package:flutter/material.dart';
+
+import '../components/card_jogador.dart';
 
 class SelectorPage extends StatefulWidget {
   String valor;
